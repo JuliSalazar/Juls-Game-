@@ -44,7 +44,7 @@ class Logica{
         this.botonInstru = this.app.loadImage("./Odisea_Game/Recursos/Boton1.png"); 
         this.btnFeed = this.app.loadImage("./Odisea_Game/Recursos/BotonFeed.png"); 
         for (let i = 0; i < 5; i++) {
-            this.imgPantalla.push(app.loadImage("./Odisea_Game/Recursos/pantalla" + i + ".jpg"));
+            this.imgPantalla.push(app.loadImage("./Odisea_Game/Recursos/Pantalla" + i + ".jpg"));
         }
         for (let i = 0; i < 3; i++) {
             this.vidas.push(new Vida(this.app,666+(75*i)));
