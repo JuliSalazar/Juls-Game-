@@ -28,7 +28,7 @@ class Logica{
         }  
         //Se llena el arreglo de las imgs de pantalla con las imgs
         for (let i = 1; i < 4; i++) {
-            this.imgPantalla.push(app.loadImage("./Chibi_Game/Recursos/pantalla" + i + ".jpg"));;
+            this.imgPantalla.push(app.loadImage("./Chibi_Game/Recursos/Pantalla" + i + ".jpg"));;
         }
         //Por cada arreglo se llena la cantidad de objetos "elemento" que necesita ej: 2 cejas, 2 clases cejas
         for (let i = 0; i < 2; i++) {
