@@ -1,0 +1,36 @@
+#about {
+    width: 95%;
+    color: white;
+    text-align: center;
+    margin : auto;
+    margin-bottom: 10px;
+}
+#about img {
+    margin: 10px;
+    width:  10%;
+    height: 10%;
+    border-radius: 10%;
+    border: 7px solid #ffffff;
+    float: left;
+}
+
+#about h2{
+
+    margin-bottom: 20px;
+}
+
+@media (min-width: 480px){
+    #about img {
+        width:  20%;
+        height: 20%;
+    } 
+
+}
+
+@media (min-width:1024px){
+
+    #about img {
+        width:  10%;
+        height: 10%;
+    } 
+}

@@ -1,0 +1,261 @@
+*{
+        margin: initial;
+        padding: 0px;
+        text-decoration: none;
+        box-sizing: border-box;
+}
+@font-face {
+    font-family: "fontjuli";
+    src: url("/principal/Dog_agility_Codigo/Recursos/tipo.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .todo{
+      width: 100%;
+     max-width: 100%;
+
+  }
+
+body{
+    background: black;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    color: white;
+    height: 100%;
+}
+header {
+    background: white;
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    position: absolute;
+
+}
+@media(min-width:1824){
+    .header{
+        width : 1000px;
+    }
+
+}
+nav{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text a:hover{
+    color:rgb(150, 15, 15);
+}
+.menu{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: space-around;
+}
+.title{
+    display: inline;
+    font-family: 'Staatliches';
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 4px 18px rgba(0,0,0,.6);
+}
+
+#slide{
+    margin-top: 75px;
+    width: 100%;
+    position: relative;
+}
+#slide div a{
+    display: block;
+    width: 150px;
+    background:rgba(0,0,0,.6);
+    color: white;
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 45%;
+}
+#slide div a:hover{
+    background:rgba(85, 13, 13, 0.5);
+}
+.contenedor{
+    position: relative;
+}
+#slide .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-400%);
+}
+#slide .sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-200%);
+}
+.sub{
+    width: 100%;
+    position: relative;
+}
+
+.subtitle{
+    font-family: 'Arimo';
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 4px 18px rgba(0,0,0,.6);
+}
+
+.text{
+    
+    display: inline;
+    margin: 0px;
+}
+li a{
+    padding:  0px 20px;
+    position: relative;
+    color: black;
+    font-family: "Lato";
+	font-size: 1.1em;
+    text-align: center;
+    font-size: 25px;
+    align-content: space-around;
+}
+
+
+
+footer{
+    background: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+#sketch-holder{
+    margin-top: 30px;
+    align-content: center;
+}
+.sketch{
+    margin-left: 15%;
+}
+
+
+.icon-align{
+    margin-top:0px;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+}
+#logo{
+    margin: 3.5px;
+    float: left;
+    width: 250px;
+    height: 70px;
+}
+
+
+
+#inicial{
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+#inicial p{
+    padding: 10px;
+    text-align: center;
+}
+
+.final{
+    justify-content: center;
+}
+.copy{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    color: black;
+}
+.sociales{
+    align-items: center;
+}
+.sociales a{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contenido article{
+    margin: 15px;
+}
+.contenido img{
+    width: 100%;
+    max-width: 300px;
+}
+.boton{
+    margin-top: -35px;
+    margin-left: 40%;
+    background:whitesmoke;
+    padding: 8px;
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+#slider{
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+#slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+    
+}
+#slider li{
+    width: 100%;
+    list-style: none;
+}
+#slider img{
+    width: 100%;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+@media (max-width: 600px) {
+   
+  }
+@media screen and (max-width:800px){
+
+}

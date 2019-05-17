@@ -1,0 +1,90 @@
+#slider {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+   
+}
+#slider img{
+    opacity: .7;
+    width: 100%;
+
+}
+#slider .contenedor {
+    display:inline-block;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 3px;
+    color: white;
+
+
+}
+#slider a{
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    
+}
+#slider a:hover{
+    background: rgba(102, 0, 95, 0.5);
+}
+
+#slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio 30s infinite alternate;
+    animation-timing-function: ease-in;
+    
+}
+#slider li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    33% {margin-left: 0;}
+
+    36% {margin-left: -100%;}
+    66% {margin-left: -100%;}
+
+    69% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+@media (min-width: 480px){
+    #slider p {
+        font-size: 20px;
+    } 
+    #slider a {
+        margin-top:  25px;
+    }
+}
+
+@media (min-width:768px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+    #banner img{
+        height: auto;
+        margin-top:-100px;
+    }
+}
+
+@media (min-width:1024px){
+
+    #banner img{
+        height: auto;
+        margin-top:-200px;
+    }
+}
